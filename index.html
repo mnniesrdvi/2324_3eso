@@ -1,0 +1,74 @@
+<!--En el css (no me deja poner comentarios ahí) he usado una cosa que pone '@import: un enlace muy largo', eso es básicamente una web llamada google fonts en el que
+puedes ekegir entre muchas fuentes, metes las que quieras en un especie de carrito de la compra y te de un enlace, el enlaces lo pegs en el css y puedes usar esas
+fuentes que has elegido-->
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <title >PAUL THIN</title>
+        /<link rel="stylesheet" href="css/style.css">
+    </head>
+    <!--A el pie de página, cabecera y el menu solamente voy a ponerle comentarios en este archivo porque es exactamente lo mismo en los tres-->
+    <body>
+     <div id="cabecera">
+        <!--"class='container'" lo he usado mucho en los tres archivos, en el css le he dado el atributo 'flex', que sirve para que las cosas salgan al lado en vez de 
+        hacía abajo-->
+        <!--En la cabecera uso cosas simples, solamente el nombre del artista del que trata la página y dos imágenes a los lados para decorar-->
+        <div class="container">
+            <img src="multimedia/sol.png" alt="sol" width="100px" height="100px" style="align-self: center; margin: auto;">
+            <h1>PAUL THIN</h1>
+            <img src="multimedia/sol.png" alt="sol" width="100px" height="100px" style="align-self: center; margin: auto;">
+        </div>
+     </div>
+     <div id="menu">
+        <!--En el menú se encuentran los enlaces a las otras páginas web y un pequeño formulario de contacto en el que se debe introducir nombre, email y el mensaje-->
+        <a href="html/actuaciones.html">Actuaciones</a>
+        <a href="html/canciones.html">Canciones</a>
+        <pre> </pre>
+        <form method="get">
+            <!--En el formulario realmente la información va a la nada, porque como realmente no es una página web publicada y nadie va a usarlo no he visto
+            necesidad de hacerlo-->
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                Nombre<br>
+                <input type="text"><br><br>
+                Email<br>
+                <input type="email"><br><br>
+                Mensaje<br>
+                <textarea>Escribir aquí el mensaje</textarea>
+                <br><br><br>
+                <input type="submit" value="Enviar"> 
+            </fieldset>
+        </form>
+     </div>
+     <div id="contenido">
+        <!--El contenido en está página es corto porque simplemente es una página introductoria, hay una imágen de él y un poco de información sobre quién es-->
+        <h2>¿Quién es Paul Thin?</h2>
+        <div class="container">
+            <img src="multimedia/paul ot.jpeg" alt="Paul" width="380px" height="350px" style="margin-left: 10px;">
+            <div>
+                <p>Pablo Suárez Delgado, artisticamente conocido como Paul Thin, es un chico <br>
+                granadino (Armilla) de 21 años (14/12/02) concursante de OT 2023</p>
+                <p>Ha quedado en segundo puesto, por detrás de Naiara y por delante de Ruslana <br> 
+                y ha sido el favorito de la semana 2 veces, en una de ellas convirtiéndose <br> 
+                en el primer favorito de la edición</p>
+            </div> 
+        </div>
+     </div>
+     <div id="pie">
+        <!--En el pie simplemente he puesto enlaces a sus redes sociales a través de imágenes, su spotify (si le das a compartir en spotify te viene
+        el código para que lo puedes copiar y pegarlo en tu página web) y los datos pedidos en la actividad (nombre, curso, etc)-->
+        <div class="container">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0aA3vWOE6EWwJH8hDImZdv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <a href="https://www.instagram.com/paul.ot2023?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="multimedia/ins.png" alt="instagram" width="150px" height="150px" style="align-self: center;"></a>
+            <a href="https://x.com/PaulSThin?s=20" target="_blank"><img src="multimedia/x.png" alt="twitter" width="80px" height="80px" style="align-self: center;"></a>
+            <a href="https://youtube.com/@PaulThinTV?si=DuIc9zuSc2JFriph" target="_blank"><img src="multimedia/youtube.png" alt="youtube" width="110px" height="80px" style="align-self: center;"></a>
+            <a href="https://www.tiktok.com/@paul.ot2023?is_from_webapp=1&sender_device=pc" target="_blank"><img src="multimedia/tiktok.png" alt="tiktok" width="100px" height="100px" style="align-self: center;"></a>
+            <a href="https://www.twitch.tv/paulthintv" target="_blank"><img src="multimedia/twitch.png" alt="twitch" width="100px" height="100px" style="align-self: center;"></a>
+            <pre>       SÍGUE A PAUL EN SUS REDES 
+        SOCIALES</pre>
+        </div> 
+        <pre style="text-align: center;">Marta+3ºC+CyR+3ºESO</pre>
+     </div>
+    </body>
+</html>

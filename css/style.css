@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=IBM+Plex+Sans:ital,wght@0,300;1,300&family=Kanit:ital,wght@0,300;1,300&family=Playfair+Display:ital@0;1&display=swap');
+
+body {background-color: rgb(70, 70, 70);}
+h1 {text-align: center; font-size: 500%; color: aquamarine; font-family: 'Anta', sans-serif;}
+p {text-align: center; margin: 100px; margin-top: 50px; border: 20px; font-family: 'Kanit', sans-serif; font-size: 140%;}
+pre {font-family: 'Playfair Display', serif; color: white;}
+h2 {text-align: center; font-family: "IBM Plex Sans", sans-serif ;font-size: 250%;}
+a {font-family: 'Playfair Display', serif; color: rgb(144, 57, 7); font-size: 150%;}
+h3 {text-align: center; font-family: 'Kanit', sans-serif; font-size: 150%;}
+h4 {text-align: center; font-family: 'IBM Plex Sans', sans-serif; font-size: 150%; color: rgb(45, 8, 80);}
+.container {display: flex;}
+#pie {background-color:rgb(106, 81, 18); clear: both; padding:10px; text-align:center;}
+#cabecera {color:#ff9; background-color:rgb(204, 75, 0); padding:10px;}
+#menu {background-color:rgb(255, 238, 0); float:left; padding: 20px; width: 200px;}
+#contenido {background-color: goldenrod; padding: 20px; float: center;}
+table, td, th {border:1px solid black;}
+table {border-collapse:collapse;}
+td, th {padding: 10px; text-align: center;}
